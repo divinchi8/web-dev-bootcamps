@@ -9,36 +9,9 @@ body {
 .main {
   flex: 1;
 }
-.left-card{
-  display: inline-block;
-  
-}
-.right-card{
-  display: inline-block;
-}
-.tile-image{
-  height: 200px;
-  width: 300px;
-  float: left;
-}
-.tile-image2{
-  height: 200px;
-  width: 300px;
-  float: right;
-}
-
-.H1-text{
-  display: inline-block;
-  text-wrap: 50%;
-  /* width: 600px; */
-}
 
 h1 {
   font-size: 5rem;
-  display: inline-block;
-}
-span{
-  color: midnightblue;
 }
 
 footer {
@@ -46,3 +19,49 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
